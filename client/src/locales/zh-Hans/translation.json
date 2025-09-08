@@ -1275,5 +1275,22 @@
   "com_ui_x_selected": "{{0}} 已选择",
   "com_ui_yes": "是的",
   "com_ui_zoom": "缩放",
-  "com_user_message": "您"
+  "com_user_message": "您",
+  "chatglm_model_description": "智能对话大语言模型",
+  "chatglm_online": "在线",
+  "chatglm_ready": "准备就绪",
+  "chatglm_powered_by": "由 ChatGLM 大语言模型驱动",
+  "chatglm_welcome_title": "欢迎使用ChatGLM对话助手",
+  "chatglm_welcome_message": "我是ChatGLM，一个智能对话助手。我可以帮助您解答问题、进行创作、提供建议等。有什么我可以帮助您的吗？",
+  "chatglm_connecting": "正在连接ChatGLM服务...",
+  "chatglm_connection_error": "连接ChatGLM服务失败，请检查配置",
+  "chatglm_thinking": "ChatGLM正在思考...",
+  "chatglm_generating": "ChatGLM正在生成回复...",
+  "chatglm_error_api_key": "ChatGLM API密钥无效，请检查配置",
+  "chatglm_error_network": "网络连接错误，请检查网络设置",
+  "chatglm_error_quota": "ChatGLM API配额不足，请联系管理员",
+  "chatglm_error_timeout": "ChatGLM响应超时，请重试",
+  "chatglm_model_name": "ChatGLM-6B",
+  "chatglm_model_version": "版本 6B",
+  "chatglm_conversation_title": "ChatGLM对话"
 }

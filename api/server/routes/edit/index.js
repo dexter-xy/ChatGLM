@@ -1,8 +1,5 @@
 const express = require('express');
-const openAI = require('./openAI');
-const custom = require('./custom');
-const google = require('./google');
-const anthropic = require('./anthropic');
+const chatglm = require('./chatglm');
 const { isEnabled } = require('~/server/utils');
 const { EModelEndpoint } = require('librechat-data-provider');
 const {
@@ -37,9 +34,7 @@ if (isEnabled(LIMIT_MESSAGE_USER)) {
 
 router.use(validateConvoAccess);
 
-router.use([`/${EModelEndpoint.azureOpenAI}`, `/${EModelEndpoint.openAI}`], openAI);
-router.use(`/${EModelEndpoint.anthropic}`, anthropic);
-router.use(`/${EModelEndpoint.google}`, google);
-router.use(`/${EModelEndpoint.custom}`, custom);
+// 只保留ChatGLM路由
+router.use('/chatglm', chatglm);
 
 module.exports = router;
