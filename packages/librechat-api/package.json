@@ -1,0 +1,5 @@
+{
+  "name": "@librechat/api",
+  "version": "0.8.0",
+  "main": "index.js"
+}

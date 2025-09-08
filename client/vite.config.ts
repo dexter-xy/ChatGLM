@@ -29,7 +29,18 @@ export default defineConfig(({ command }) => ({
   envPrefix: ['VITE_', 'SCRIPT_', 'DOMAIN_', 'ALLOW_'],
   plugins: [
     react(),
-    nodePolyfills(),
+    // nodePolyfills({
+    //   // Whether to polyfill node globals
+    //   globals: {
+    //     Buffer: true,
+    //     global: true,
+    //     process: true,
+    //   },
+    //   // Whether to polyfill specific modules
+    //   protocolImports: true,
+    //   // Exclude unenv related modules that are causing issues
+    //   exclude: ['unenv'],
+    // }),
     VitePWA({
       injectRegister: 'auto', // 'auto' | 'manual' | 'disabled'
       registerType: 'autoUpdate', // 'prompt' | 'autoUpdate'

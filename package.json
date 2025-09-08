@@ -4,7 +4,10 @@
   "description": "基于ChatGLM的网页对话应用",
   "workspaces": [
     "api",
-    "client"
+    "client",
+    "packages/librechat-client",
+    "packages/librechat-data-provider",
+    "packages/librechat-api"
   ],
   "scripts": {
     "backend": "cross-env NODE_ENV=production node api/server/index.js",

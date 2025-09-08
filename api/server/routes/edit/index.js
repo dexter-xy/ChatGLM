@@ -1,5 +1,6 @@
 const express = require('express');
 const chatglm = require('./chatglm');
+const gemini = require('./gemini');
 const { isEnabled } = require('~/server/utils');
 const { EModelEndpoint } = require('librechat-data-provider');
 const {
@@ -34,7 +35,8 @@ if (isEnabled(LIMIT_MESSAGE_USER)) {
 
 router.use(validateConvoAccess);
 
-// 只保留ChatGLM路由
+// ChatGLM和Gemini路由
 router.use('/chatglm', chatglm);
+router.use('/gemini', gemini);
 
 module.exports = router;
