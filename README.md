@@ -59,7 +59,7 @@
 
 ```bash
 # 克隆项目
-git clone https://github.com/yourusername/ChatGLM.git
+git clone https://github.com/dexter-xy/ChatGLM.git
 cd ChatGLM
 
 # 启动服务
