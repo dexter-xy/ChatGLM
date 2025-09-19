@@ -262,6 +262,7 @@ src/lib/i18n/locales/
 ## 🙏 致谢
 
 感谢以下开源项目的支持：
+- [Open-WebUI](https://github.com/open-webui/open-webui.git) - 高度完善的AI网页对话应用
 - [Ollama](https://ollama.ai/) - 本地模型运行
 - [LiteLLM](https://github.com/BerriAI/litellm) - 多模型集成
 - [SvelteKit](https://kit.svelte.dev/) - 前端框架
