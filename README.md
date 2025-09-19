@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![ChatGLM Logo](static/favicon.png)
+<img src="static/favicon.png" alt="ChatGLM Logo" style="border-radius: 50%; width: 150px; height: 150px;">
 
 **功能丰富、可扩展的自托管 WebUI，设计为完全离线运行**
 
